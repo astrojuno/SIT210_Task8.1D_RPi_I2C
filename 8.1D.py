@@ -41,7 +41,6 @@ def main():
     while True: 
         lightLevel = getLightReading()
         print("Light level is " + getBrightnessRanking(lightLevel))
-        #print("Light Level: " + format(lightLevel[1], '.2f'))
         time.sleep(TIME_BETWEEN_READINGS)
 
 # needed to redirect to main() on some ide's
